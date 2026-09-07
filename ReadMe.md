@@ -24,6 +24,14 @@ All solutions are implemented in **Java** and organized by algorithmic pattern u
 
 ---
 
+### 📁 `src/strings/`
+
+| # | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
+|:---:|:---|:---|:---:|:---:|:---|
+| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Vertical Scanning, Strings | 🟢 Easy | `O(S)` / `O(1)` | [`14_Longest_Common_Prefix.java`](src/strings/14_Longest_Common_Prefix.java) |
+
+---
+
 ### 📁 `src/two_pointers/`
 
 | # | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
