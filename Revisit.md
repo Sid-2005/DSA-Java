@@ -1,6 +1,6 @@
 # 🔁 Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-48-blue) ![Overdue](https://img.shields.io/badge/Overdue-34-red) ![Upcoming](https://img.shields.io/badge/Upcoming-14-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-48-blue) ![Overdue](https://img.shields.io/badge/Overdue-33-red) ![Upcoming](https://img.shields.io/badge/Upcoming-15-brightgreen)
 
 Pick 2-3 🔴 problems from the top. Re-solve from a blank file — **no peeking at old code, pattern,
 or README.** Sorted by LeetCode problem number only, so topic order is effectively randomized —
@@ -44,7 +44,7 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 | 392 | 04-07-2026 | 07-07-2026 | 🔴 | 🆕 |                                           |
 | 485 | 24-07-2026 | 27-07-2026 | 🔴 | 🆕 |                                           |
 | 496 | 13-08-2026 | 20-08-2026 | 🟢 | 🆕 | Need improvement                          |
-| 643 | 04-07-2026 | 07-07-2026 | 🔴 | 🆕 |                                           |
+| 643 | 21-09-2026 | 28-09-2026 | 🟢 | 🔁 |                                           |
 | 704 | 04-07-2026 | 07-07-2026 | 🔴 | 🆕 |                                           |
 | 739 | 17-08-2026 | 24-08-2026 | 🟢 | 🆕 | Need improvement                          |
 | 744 | 22-07-2026 | 25-07-2026 | 🔴 | 🆕 |                                           |
