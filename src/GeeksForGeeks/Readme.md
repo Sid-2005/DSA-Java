@@ -6,6 +6,14 @@ This package contains my Data Structures and Algorithms solutions targeting Serv
 
 ## 📂 Repository Structure
 
+### 📁 `src/GeeksForGeeks/arrays_and_hashings/`
+
+| Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
+|:---|:---|:---:|:---:|:---|
+| [Duplicates in Limited Range Array](https://www.geeksforgeeks.org/problems/find-duplicates-in-an-array/1) | Arrays, Value as Index / In-Place Marking | 🟢 Easy | `O(N)` / `O(1)` | `GFG_Duplicates_Limited_Range.java` |
+
+---
+
 ### 📁 `src/GeeksForGeeks/two_pointers/`
 
 | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
