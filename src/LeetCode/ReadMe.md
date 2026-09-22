@@ -20,6 +20,7 @@ All solutions are implemented in **Java** and organized by algorithmic pattern u
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Arrays, HashMap | 🟢 Easy | `O(N)` / `O(N)` | [`136_Single_Number.java`](arrays_and_hashings/136_Single_Number.java) |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Arrays, HashMap | 🟢 Easy | `O(N)` / `O(N)` | [`169_Majority_Element.java`](arrays_and_hashings/169_Majority_Element.java) |
 | 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Arrays, HashSet | 🟢 Easy | `O(N)` / `O(N)` | [`217_Contains_Duplicate.java`](src/arrays_and_hashings/217_Contains_Duplicate.java) |
+| 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Arrays, In-Place Marking | 🟡 Medium | `O(N)` / `O(1)` | [`442_Find_All_Duplicates_in_an_Array.java`](arrays_and_hashings/442_Find_All_Duplicates_in_an_Array.java) |
 | 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | Arrays, Simulation | 🟢 Easy | `O(M*N)` / `O(M*N)`| [`2022_Convert_1D_Array_Into_2D_Array.java`](arrays_and_hashings/2022_Convert_1D_Array_Into_2D_Array.java) |
 
 ---
