@@ -19,3 +19,4 @@ This package contains my Data Structures and Algorithms solutions targeting Serv
 | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
 |:---|:---|:---:|:---:|:---|
 | [Triplet Sum in Array](https://www.geeksforgeeks.org/problems/triplet-sum-in-array-1587115621/1) | Sorting, Two Pointers | 🟡 Medium | `O(N²)` / `O(1)` | `GFG_Triplet_Sum.java` |
+| [Move All Zeroes to End](https://www.geeksforgeeks.org/problems/move-all-zeroes-to-end-of-array0751/1) | Arrays, Two Pointers (Reader/Writer) | 🟢 Easy | `O(N)` / `O(1)` | `GFG_Move_All_Zeroes.java` |
