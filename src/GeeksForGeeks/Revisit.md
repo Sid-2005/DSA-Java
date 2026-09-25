@@ -1,6 +1,6 @@
 # 🔁 SBC Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-3-blue) ![Overdue](https://img.shields.io/badge/Overdue-0-red) ![Upcoming](https://img.shields.io/badge/Upcoming-3-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-4-blue) ![Overdue](https://img.shields.io/badge/Overdue-2-red) ![Upcoming](https://img.shields.io/badge/Upcoming-2-brightgreen)
 
 ### 🏷️ Legend
 🔴 Overdue · 🟢 Upcoming · 🆕 Stage 0 · 🔁 Stage 1 (+7d) · 📗 Stage 2 (+30d) · 🎓 Graduated (delete row) · ⚠️ Known bug
@@ -8,8 +8,9 @@
 | Problem Name | Last Solved | Next Review | Status | Stage | Notes                                     |
 |:---|:---:|:---:|:---:|:---:|:------------------------------------------|
 | GFG: Triplet Sum in Array | 21-09-2026 | 24-09-2026 | 🔴 | 🆕 | Sort first, left = i + 1                  |
-| GFG: Duplicates in Limited Range Array | 22-09-2026 | 25-09-2026 | 🟢 | 🆕 | Use Math.abs() to track visited indexes   |
+| GFG: Duplicates in Limited Range Array | 22-09-2026 | 25-09-2026 | 🔴 | 🆕 | Use Math.abs() to track visited indexes   |
 | GFG: Move All Zeroes to End | 24-09-2026 | 01-10-2026 | 🟢 | 🆕 | Reader/Writer swap                        |
+| GFG: Sort in specific order | 25-09-2026 | 02-10-2026 | 🟢 | 🆕 | Make odds negative, sort, revert          |
 
 ---
 ### 🔄 How to update
