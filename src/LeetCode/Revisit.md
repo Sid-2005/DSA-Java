@@ -1,6 +1,6 @@
 # 🔁 Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-49-blue) ![Overdue](https://img.shields.io/badge/Overdue-33-red) ![Upcoming](https://img.shields.io/badge/Upcoming-16-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-49-blue) ![Overdue](https://img.shields.io/badge/Overdue-32-red) ![Upcoming](https://img.shields.io/badge/Upcoming-17-brightgreen)
 
 Pick 2-3 🔴 problems from the top. Re-solve from a blank file — **no peeking at old code, pattern,
 or README.** Sorted by LeetCode problem number only, so topic order is effectively randomized —
@@ -56,7 +56,7 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 | 977 | 02-07-2026 | 05-07-2026 | 🔴 | 🆕 |                                           |
 | 1343 | 27-07-2026 | 30-07-2026 | 🔴 | 🆕 |                                           |
 | 1480 | 29-06-2026 | 02-07-2026 | 🔴 | 🆕 |                                           |
-| 1876 | 25-07-2026 | 28-07-2026 | 🔴 | 🆕 |                                           |
+| 1876 | 03-10-2026 | 10-10-2026 | 🟢 | 🔁 | Fixed-size window (size 3)                |
 | 2022 | 16-07-2026 | 19-07-2026 | 🔴 | 🆕 |                                           |
 | 2379 | 27-07-2026 | 30-07-2026 | 🔴 | 🆕 |                                           |
 | 2461 | 27-07-2026 | 30-07-2026 | 🔴 | 🆕 | Solid HashMap zero-count recall last time |
