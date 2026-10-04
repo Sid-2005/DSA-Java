@@ -1,6 +1,6 @@
 # 🔁 SBC Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-6-blue) ![Overdue](https://img.shields.io/badge/Overdue-2-red) ![Upcoming](https://img.shields.io/badge/Upcoming-4-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-7-blue) ![Overdue](https://img.shields.io/badge/Overdue-2-red) ![Upcoming](https://img.shields.io/badge/Upcoming-5-brightgreen)
 
 ### 🏷️ Legend
 🔴 Overdue · 🟢 Upcoming · 🆕 Stage 0 · 🔁 Stage 1 (+7d) · 📗 Stage 2 (+30d) · 🎓 Graduated (delete row) · ⚠️ Known bug
@@ -13,6 +13,7 @@
 | GFG: Sort in specific order | 25-09-2026 | 02-10-2026 | 🟢 | 🆕 | Make odds negative, sort, revert          |
 | GFG: Rotate Array | 25-09-2026 | 02-10-2026 | 🟢 | 🆕 | Left rotation: rev(0,d-1), rev(d,n-1), rev(all) |
 | GFG: Count Distinct Elements in Every Window | 04-10-2026 | 11-10-2026 | 🟢 | 🔁 | Fixed-size window, track frequency map    |
+| GFG: Max Sum Subarray of size K | 04-10-2026 | 11-10-2026 | 🟢 | 🆕 | Fixed-size window, curr - arr[left-1] + arr[right] |
 
 ---
 ### 🔄 How to update

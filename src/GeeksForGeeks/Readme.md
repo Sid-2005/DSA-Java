@@ -30,3 +30,4 @@ This package contains my Data Structures and Algorithms solutions targeting Serv
 | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
 |:---|:---|:---:|:---:|:---|
 | [Count Distinct Elements in Every Window](https://www.geeksforgeeks.org/problems/count-distinct-elements-in-every-window/1) | Fixed-Size Sliding Window, HashMap | 🟡 Medium | `O(N)` / `O(K)` | `GFG_Count_Distinct_Elements_Window.java` |
+| [Max Sum Subarray of size K](https://www.geeksforgeeks.org/problems/max-sum-subarray-of-size-k5313/1) | Fixed-Size Sliding Window | 🟢 Easy | `O(N)` / `O(1)` | `GFG_Max_Sum_Subarray_Size_K.java` |
