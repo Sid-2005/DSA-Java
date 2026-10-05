@@ -1,6 +1,6 @@
 # 🔁 Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-49-blue) ![Overdue](https://img.shields.io/badge/Overdue-30-red) ![Upcoming](https://img.shields.io/badge/Upcoming-19-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-50-blue) ![Overdue](https://img.shields.io/badge/Overdue-30-red) ![Upcoming](https://img.shields.io/badge/Upcoming-20-brightgreen)
 
 Pick 2-3 🔴 problems from the top. Re-solve from a blank file — **no peeking at old code, pattern,
 or README.** Sorted by LeetCode problem number only, so topic order is effectively randomized —
@@ -22,6 +22,7 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 | 73 | 19-07-2026 | 22-07-2026 | 🔴 | 🆕 |                                           |
 | 75 | 15-07-2026 | 18-07-2026 | 🔴 | 🆕 |                                           |
 | 83 | 19-08-2026 | 26-08-2026 | 🟢 | 🔁 |                                           |
+| 88 | 05-10-2026 | 12-10-2026 | 🟢 | 🔁 | Backwards Three Pointers                  |
 | 100 | 12-07-2026 | 15-07-2026 | 🔴 | 🆕 |                                           |
 | 104 | 09-07-2026 | 12-07-2026 | 🔴 | 🆕 |                                           |
 | 111 | 13-08-2026 | 20-08-2026 | 🟢 | 🔁 | think about edge cases                    |
