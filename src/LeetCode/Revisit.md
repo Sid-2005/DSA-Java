@@ -1,6 +1,6 @@
 # 🔁 Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-50-blue) ![Overdue](https://img.shields.io/badge/Overdue-30-red) ![Upcoming](https://img.shields.io/badge/Upcoming-20-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-50-blue) ![Overdue](https://img.shields.io/badge/Overdue-29-red) ![Upcoming](https://img.shields.io/badge/Upcoming-21-brightgreen)
 
 Pick 2-3 🔴 problems from the top. Re-solve from a blank file — **no peeking at old code, pattern,
 or README.** Sorted by LeetCode problem number only, so topic order is effectively randomized —
@@ -13,7 +13,7 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 |:---:|:---:|:---:|:---:|:---:|:------------------------------------------|
 | 1 | 17-08-2026 | 16-09-2026 | 🟢 | 📗 |                                           |
 | 14 | 07-09-2026 | 14-09-2026 | 🟢 | 🔁 | Vertical scanning                         |
-| 16 | 14-07-2026 | 17-07-2026 | 🔴 | 🆕 |                                           |
+| 16 | 06-10-2026 | 13-10-2026 | 🟢 | 🔁 | Sort first, closest = arr[0]+arr[1]+arr[2]|
 | 19 | 21-07-2026 | 24-07-2026 | 🔴 | 🆕 |                                           |
 | 21 | 07-09-2026 | 14-09-2026 | 🟢 | 🔁 | Use Dummy Node                            |
 | 26 | 21-09-2026 | 28-09-2026 | 🟢 | 🔁 | Reader/Writer Two Pointers                |
@@ -61,11 +61,3 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 | 2022 | 16-07-2026 | 19-07-2026 | 🔴 | 🆕 |                                           |
 | 2379 | 27-07-2026 | 30-07-2026 | 🔴 | 🆕 |                                           |
 | 2461 | 27-07-2026 | 30-07-2026 | 🔴 | 🆕 | Solid HashMap zero-count recall last time |
-
----
-### 🔄 How to update
-1. Pick 2-3 🔴 rows from the top — resist the urge to skip to numbers you recognize.
-2. Re-solve from a blank file.
-3. Clean solve → bump Stage (🆕→🔁→📗→🎓), Last Solved = today, push Next Review (+7d/+30d), flip to 🟢.
-4. Shaky solve → keep Stage, just push Next Review out by the same interval.
-5. 🎓 → delete the row.
