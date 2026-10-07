@@ -1,6 +1,6 @@
 # 🔁 Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-51-blue) ![Overdue](https://img.shields.io/badge/Overdue-28-red) ![Upcoming](https://img.shields.io/badge/Upcoming-23-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-51-blue) ![Overdue](https://img.shields.io/badge/Overdue-27-red) ![Upcoming](https://img.shields.io/badge/Upcoming-24-brightgreen)
 
 Pick 2-3 🔴 problems from the top. Re-solve from a blank file — **no peeking at old code, pattern,
 or README.** Sorted by LeetCode problem number only, so topic order is effectively randomized —
@@ -37,7 +37,7 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 |    217    | 26-06-2026  | 29-06-2026  |   🔴   |  🆕   |                                            |
 |    226    | 17-07-2026  | 20-07-2026  |   🔴   |  🆕   |                                            |
 |    234    | 08-07-2026  | 11-07-2026  |   🔴   |  🆕   |                                            |
-|    238    | 04-07-2026  | 07-07-2026  |   🔴   |  🆕   |                                            |
+|    238    | 07-10-2026  | 14-10-2026  |   🟢   |  🔁   | Two-pass prefix/suffix products, O(1) space|
 |    268    | 04-07-2026  | 07-07-2026  |   🔴   |  🆕   |                                            |
 |    283    | 01-07-2026  | 04-07-2026  |   🔴   |  🆕   |                                            |
 |    303    | 10-07-2026  | 13-07-2026  |   🔴   |  🆕   |                                            |
