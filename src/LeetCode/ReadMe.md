@@ -47,9 +47,9 @@ All solutions are implemented in **Java** and organized by algorithmic pattern u
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Arrays, Two Pointers | 🟢 Easy | `O(N)` / `O(1)` | [`283_Move_Zeroes.java`](src/two_pointers/283_Move_Zeroes.java) |
 | 344 | [Reverse String](https://leetcode.com/problems/reverse-string/) | Two Pointers, In-Place Manipulation | 🟢 Easy | `O(N)` / `O(1)` | [`344_Reverse_String.java`](two_pointers/344_Reverse_String.java) |
 | 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/) | Strings, Two Pointers | 🟢 Easy | `O(N)` / `O(1)` | [`392_Is_Subsequence.java`](src/two_pointers/392_Is_Subsequence.java) |
+| 443 | [String Compression](https://leetcode.com/problems/string-compression/) | Reader/Writer Two Pointers | 🟡 Medium | `O(N)` / `O(1)` | [`443_String_Compression.java`](two_pointers/443_String_Compression.java) |
 | 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/) | Reverse Two Pointers | 🟢 Easy | `O(N)` / `O(1)` | [`844_Backspace_String_Compare.java`](src/two_pointers/844_Backspace_String_Compare.java) |
-| 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Arrays, Two Pointers | 🟢 Easy | `O(N)` / `O(N)` | [`977_Squares_of_a_Sorted_Array.java`](src/two_pointers/977_Squares_of_a_Sorted_Array.java) |
----
+| 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | Arrays, Two Pointers | 🟢 Easy | `O(N)` / `O(N)` | [`977_Squares_of_a_Sorted_Array.java`](src/two_pointers/977_Squares_of_a_Sorted_Array.java) |---
 
 ### 📁 `sliding_window`
 
