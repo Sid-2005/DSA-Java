@@ -1,6 +1,6 @@
 # 🔁 Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-51-blue) ![Overdue](https://img.shields.io/badge/Overdue-27-red) ![Upcoming](https://img.shields.io/badge/Upcoming-24-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-53-blue) ![Overdue](https://img.shields.io/badge/Overdue-27-red) ![Upcoming](https://img.shields.io/badge/Upcoming-26-brightgreen)
 
 Pick 2-3 🔴 problems from the top. Re-solve from a blank file — **no peeking at old code, pattern,
 or README.** Sorted by LeetCode problem number only, so topic order is effectively randomized —
@@ -19,6 +19,7 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 |    26     | 21-09-2026  | 28-09-2026  |   🟢   |  🔁   | Reader/Writer Two Pointers                  |
 |    27     | 13-08-2026  | 20-08-2026  |   🟢   |  🔁   |                                             |
 |    48     | 20-07-2026  | 23-07-2026  |   🔴   |  🆕   |                                             |
+|    53     | 12-10-2026  | 19-10-2026  |   🟢   |  🔁   | Kadane's Algorithm, reset sum < 0           |
 |    73     | 19-07-2026  | 22-07-2026  |   🔴   |  🆕   |                                             |
 |    75     | 15-07-2026  | 18-07-2026  |   🔴   |  🆕   |                                             |
 |    83     | 19-08-2026  | 26-08-2026  |   🟢   |  🔁   |                                             |
@@ -28,7 +29,8 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 |    111    | 13-08-2026  | 20-08-2026  |   🟢   |  🔁   | think about edge cases                      |
 |    125    | 07-10-2026  | 14-10-2026  |   🟢   |  🔁   | Regex clean, check bounds to mid            |
 |    136    | 30-06-2026  | 03-07-2026  |   🔴   |  🆕   |                                             |
-|    141    | 05-07-2026  | 08-07-2026  |   🔴   |  🆕   |                                             | |    167    | 12-09-2026  | 12-10-2026  |   🟢   |  📗   | Check by Dry Run                           |
+|    141    | 05-07-2026  | 08-07-2026  |   🔴   |  🆕   |                                             |
+|    167    | 12-09-2026  | 12-10-2026  |   🟢   |  📗   | Check by Dry Run                            |
 |    169    | 27-06-2026  | 30-06-2026  |   🔴   |  🆕   |                                             |
 |    189    | 19-08-2026  | 26-08-2026  |   🟢   |  🔁   | k > length                                  |
 |    203    | 07-07-2026  | 10-07-2026  |   🔴   |  🆕   |                                             |
