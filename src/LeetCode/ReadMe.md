@@ -60,6 +60,7 @@ All solutions are implemented in **Java** and organized by algorithmic pattern u
 
 | # | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
 |:---:|:---|:---|:---:|:---:|:---|
+| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Dynamic Sliding Window, HashMap | 🟡 Medium | `O(N)` / `O(M)` | [`3_Longest_Substring_Without_Repeating_Characters.java`](sliding_window/3_Longest_Substring_Without_Repeating_Characters.java) |
 | 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Dynamic Sliding Window | 🟡 Medium | `O(N)` / `O(1)` | [`209_Minimum_Size_Subarray_Sum.java`](sliding_window/209_Minimum_Size_Subarray_Sum.java) |
 | 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Dynamic Sliding Window / State Tracking | 🟢 Easy | `O(N)` / `O(1)` | [`485_Max_Consecutive_Ones.java`](src/sliding_window/485_Max_Consecutive_Ones.java) |
 | 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Fixed-Size Sliding Window | 🟢 Easy | `O(N)` / `O(1)` | [`643_Maximum_Average_Subarray_I.java`](src/sliding_window/643_Maximum_Average_Subarray_I.java) |

@@ -1,6 +1,6 @@
 # 🔁 Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-54-blue) ![Overdue](https://img.shields.io/badge/Overdue-27-red) ![Upcoming](https://img.shields.io/badge/Upcoming-27-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-55-blue) ![Overdue](https://img.shields.io/badge/Overdue-27-red) ![Upcoming](https://img.shields.io/badge/Upcoming-28-brightgreen)
 
 Pick 2-3 🔴 problems from the top. Re-solve from a blank file — **no peeking at old code, pattern,
 or README.** Sorted by LeetCode problem number only, so topic order is effectively randomized —
@@ -12,6 +12,7 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 | Problem # | Last Solved | Next Review | Status | Stage | Notes                                       |
 |:---------:|:-----------:|:-----------:|:------:|:-----:|:--------------------------------------------|
 |     1     | 17-08-2026  | 16-09-2026  |   🟢   |  📗   |                                             |
+|     3     | 13-10-2026  | 20-10-2026  |   🟢   |  🔁   | Dynamic Sliding Window, (r-l+1) != map.size() |
 |    14     | 07-09-2026  | 14-09-2026  |   🟢   |  🔁   | Vertical scanning                           |
 |    16     | 06-10-2026  | 13-10-2026  |   🟢   |  🔁   | Sort first, closest = arr[0]+arr[1]+arr[2]  |
 |    19     | 06-10-2026  | 13-10-2026  |   🟢   |  🔁   | Use Two-Pass; try Single-Pass gap next      |
