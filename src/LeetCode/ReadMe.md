@@ -16,6 +16,7 @@ All solutions are implemented in **Java** and organized by algorithmic pattern u
 |:---:|:---|:---|:---:|:---:|:---|
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Arrays, HashMap | 🟢 Easy | `O(N)` / `O(N)` | [`1_Two_Sum.java`](arrays_and_hashings/1_Two_Sum.java) |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Arrays, Matrix, Transpose + Reverse | 🟡 Medium | `O(N²)` / `O(1)` | [`48_Rotate_Image.java`](arrays_and_hashings/48_Rotate_Image.java) |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Arrays, HashMap, String Frequency | 🟡 Medium | `O(N*K)` / `O(N*K)` | [`49_Group_Anagrams.java`](arrays_and_hashings/49_Group_Anagrams.java) |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Arrays, Kadane's Algorithm | 🟡 Medium | `O(N)` / `O(1)` | [`53_Maximum_Subarray.java`](arrays_and_hashings/53_Maximum_Subarray.java) |
 | 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Arrays, Matrix, State Tracking | 🟡 Medium | `O(M*N)` / `O(1)` | [`73_Set_Matrix_Zeroes.java`](arrays_and_hashings/73_Set_Matrix_Zeroes.java) |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | Arrays, HashMap | 🟢 Easy | `O(N)` / `O(N)` | [`136_Single_Number.java`](arrays_and_hashings/136_Single_Number.java) |
