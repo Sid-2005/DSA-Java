@@ -1,151 +1,69 @@
-# 🚀 LeetCode DSA in Java
+# 🔁 Revisit Tracker
 
-This repository documents my journey of mastering **Data Structures and Algorithms (DSA)** through LeetCode using **Core Java**.
+![Total](https://img.shields.io/badge/Tracked-56-blue) ![Overdue](https://img.shields.io/badge/Overdue-26-red) ![Upcoming](https://img.shields.io/badge/Upcoming-30-brightgreen)
 
-The primary goal is to develop strong problem-solving skills by learning algorithmic patterns, writing clean and optimized solutions, and building the foundations required for technical interviews and backend development.
+Pick 2-3 🔴 problems from the top. Re-solve from a blank file — **no peeking at old code, pattern,
+or README.** Sorted by LeetCode problem number only, so topic order is effectively randomized —
+recognizing the pattern cold is part of the exercise. Look the problem up by number when you sit down.
 
----
+### 🏷️ Legend
+🔴 Overdue · 🟢 Upcoming · 🆕 Stage 0 · 🔁 Stage 1 (+7d) · 📗 Stage 2 (+30d) · 🎓 Graduated (delete row) · ⚠️ Known bug
 
-## 📂 Repository Structure
-
-All solutions are implemented in **Java** and organized by algorithmic pattern under the `..` directory.
-
-### 📁 `arrays_and_hashings`
-
-| # | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
-|:---:|:---|:---|:---:|:---:|:---|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Arrays, HashMap | 🟢 Easy | `O(N)` / `O(N)` | [`1_Two_Sum.java`](arrays_and_hashings/1_Two_Sum.java) |
-| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Arrays, Matrix, Transpose + Reverse | 🟡 Medium | `O(N²)` / `O(1)` | [`48_Rotate_Image.java`](arrays_and_hashings/48_Rotate_Image.java) |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Arrays, HashMap, String Frequency | 🟡 Medium | `O(N*K)` / `O(N*K)` | [`49_Group_Anagrams.java`](arrays_and_hashings/49_Group_Anagrams.java) |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Arrays, Kadane's Algorithm | 🟡 Medium | `O(N)` / `O(1)` | [`53_Maximum_Subarray.java`](arrays_and_hashings/53_Maximum_Subarray.java) |
-| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Arrays, Matrix, State Tracking | 🟡 Medium | `O(M*N)` / `O(1)` | [`73_Set_Matrix_Zeroes.java`](arrays_and_hashings/73_Set_Matrix_Zeroes.java) |
-| 136 | [Single Number](https://leetcode.com/problems/single-number/) | Arrays, HashMap | 🟢 Easy | `O(N)` / `O(N)` | [`136_Single_Number.java`](arrays_and_hashings/136_Single_Number.java) |
-| 152 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | Arrays, Prefix & Suffix Products | 🟡 Medium | `O(N)` / `O(1)` | [`152_Maximum_Product_Subarray.java`](arrays_and_hashings/152_Maximum_Product_Subarray.java) |
-| 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | Arrays, HashMap | 🟢 Easy | `O(N)` / `O(N)` | [`169_Majority_Element.java`](arrays_and_hashings/169_Majority_Element.java) |
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Arrays, HashSet | 🟢 Easy | `O(N)` / `O(N)` | [`217_Contains_Duplicate.java`](src/arrays_and_hashings/217_Contains_Duplicate.java) |
-| 442 | [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | Arrays, In-Place Marking | 🟡 Medium | `O(N)` / `O(1)` | [`442_Find_All_Duplicates_in_an_Array.java`](arrays_and_hashings/442_Find_All_Duplicates_in_an_Array.java) |
-| 2022 | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/) | Arrays, Simulation | 🟢 Easy | `O(M*N)` / `O(M*N)`| [`2022_Convert_1D_Array_Into_2D_Array.java`](arrays_and_hashings/2022_Convert_1D_Array_Into_2D_Array.java) |
-
----
-
-### 📁 `strings`
-
-| # | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
-|:---:|:---|:---|:---:|:---:|:---|
-| 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Vertical Scanning, Strings | 🟢 Easy | `O(S)` / `O(1)` | [`14_Longest_Common_Prefix.java`](strings/14_Longest_Common_Prefix.java) |
-
----
-
-### 📁 `two_pointers`
-
-|  #  | Problem                                                                                                   | Pattern / Concept Used               | Difficulty | Complexity (T / S) | File                                                                                                          |
-|:---:|:----------------------------------------------------------------------------------------------------------|:-------------------------------------|:----------:|:------------------:|:--------------------------------------------------------------------------------------------------------------|
-| 16  | [3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                               | Sorting, Two Pointers                | 🟡 Medium  |  `O(N²)` / `O(1)`  | [`16_3Sum_Closest.java`](two_pointers/16_3Sum_Closest.java)                                                   |
-| 26  | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Arrays, Two Pointers (Reader/Writer) |  🟢 Easy   |  `O(N)` / `O(1)`   | [`26_Remove_Duplicates_from_Sorted_Array.java`](src/two_pointers/26_Remove_Duplicates_from_Sorted_Array.java) |
-| 27  | [Remove Element](https://leetcode.com/problems/remove-element/)                                           | Arrays, Two Pointers (Reader/Writer) |  🟢 Easy   |  `O(N)` / `O(1)`   | [`27_Remove_Element.java`](two_pointers/27_Remove_Element.java)                                               |
-| 75  | [Sort Colors](https://leetcode.com/problems/sort-colors/)                                                 | Three Pointers (Dutch National Flag) | 🟡 Medium  |  `O(N)` / `O(1)`   | [`75_Sort_Colors.java`](two_pointers/75_Sort_Colors.java)                                                     |
-| 88  | [Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                                   | Arrays, Three Pointers (Backwards)   |  🟢 Easy   | `O(M+N)` / `O(1)`  | [`88_Merge_Sorted_Array.java`](two_pointers/88_Merge_Sorted_Array.java)                                       |
-| 125 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)                                       | Strings, Two Pointers                |  🟢 Easy   |  `O(N)` / `O(N)`   | [`125_Valid_Palindrome.java`](two_pointers/125_Valid_Palindrome.java)                                         |
-| 167 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)     | Arrays, Two Pointers                 | 🟡 Medium  |  `O(N)` / `O(1)`   | [`167_Two_Sum_II_Input_Array_Sorted.java`](two_pointers/167_Two_Sum_II_Input_Array_Sorted.java)               |
-| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/)                                               | Three-Reversal Technique             | 🟡 Medium  |  `O(N)` / `O(1)`   | [`189_Rotate_Array.java`](two_pointers/189_Rotate_Array.java)                                                 |
-| 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                                 | Arrays, Two Pointers                 |  🟢 Easy   |  `O(N)` / `O(1)`   | [`283_Move_Zeroes.java`](src/two_pointers/283_Move_Zeroes.java)                                               |
-| 344 | [Reverse String](https://leetcode.com/problems/reverse-string/)                                           | Two Pointers, In-Place Manipulation  |  🟢 Easy   |  `O(N)` / `O(1)`   | [`344_Reverse_String.java`](two_pointers/344_Reverse_String.java)                                             |
-| 392 | [Is Subsequence](https://leetcode.com/problems/is-subsequence/)                                           | Strings, Two Pointers                |  🟢 Easy   |  `O(N)` / `O(1)`   | [`392_Is_Subsequence.java`](src/two_pointers/392_Is_Subsequence.java)                                         |
-| 443 | [String Compression](https://leetcode.com/problems/string-compression/)                                   | Reader/Writer Two Pointers           | 🟡 Medium  |  `O(N)` / `O(1)`   | [`443_String_Compression.java`](two_pointers/443_String_Compression.java)                                     |
-| 844 | [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/)                       | Reverse Two Pointers                 |  🟢 Easy   |  `O(N)` / `O(1)`   | [`844_Backspace_String_Compare.java`](src/two_pointers/844_Backspace_String_Compare.java)                     |
-| 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)                     | Arrays, Two Pointers                 |  🟢 Easy   |  `O(N)` / `O(N)`   | [`977_Squares_of_a_Sorted_Array.java`](src/two_pointers/977_Squares_of_a_Sorted_Array.java)                   |
-
----
-
-### 📁 `sliding_window`
-
-| # | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
-|:---:|:---|:---|:---:|:---:|:---|
-| 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Dynamic Sliding Window, HashMap | 🟡 Medium | `O(N)` / `O(M)` | [`3_Longest_Substring_Without_Repeating_Characters.java`](sliding_window/3_Longest_Substring_Without_Repeating_Characters.java) |
-| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Dynamic Sliding Window | 🟡 Medium | `O(N)` / `O(1)` | [`209_Minimum_Size_Subarray_Sum.java`](sliding_window/209_Minimum_Size_Subarray_Sum.java) |
-| 485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | Dynamic Sliding Window / State Tracking | 🟢 Easy | `O(N)` / `O(1)` | [`485_Max_Consecutive_Ones.java`](src/sliding_window/485_Max_Consecutive_Ones.java) |
-| 643 | [Maximum Average Subarray I](https://leetcode.com/problems/maximum-average-subarray-i/) | Fixed-Size Sliding Window | 🟢 Easy | `O(N)` / `O(1)` | [`643_Maximum_Average_Subarray_I.java`](src/sliding_window/643_Maximum_Average_Subarray_I.java) |
-| 904 | [Fruit Into Baskets](https://leetcode.com/problems/fruit-into-baskets/) | Dynamic Sliding Window, HashMap | 🟡 Medium | `O(N)` / `O(1)` | [`904_Fruit_Into_Baskets.java`](sliding_window/904_Fruit_Into_Baskets.java) |
-| 1343 | [Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) | Fixed-Size Sliding Window | 🟡 Medium | `O(N)` / `O(1)` | [`1343_Number_of_Sub_arrays_of_Size_K_and_Average_Greater_than_or_Equal_to_Threshold.java`](src/sliding_window/1343_Number_of_Sub_arrays_of_Size_K_and_Average_Greater_than_or_Equal_to_Threshold.java) |
-| 1876 | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/) | Fixed-Size Sliding Window (Direct Comparison) | 🟢 Easy | `O(N)` / `O(1)` | [`1876_Substrings_of_Size_Three_with_Distinct_Characters.java`](src/sliding_window/1876_Substrings_of_Size_Three_with_Distinct_Characters.java) |
-| 2379 | [Minimum Recolors to Get K Consecutive Black Blocks](https://leetcode.com/problems/minimum-recolors-to-get-k-consecutive-black-blocks/) | Fixed-Size Sliding Window | 🟢 Easy | `O(N)` / `O(1)` | [`2379_Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks.java`](src/sliding_window/2379_Minimum_Recolors_to_Get_K_Consecutive_Black_Blocks.java) |
-| 2461 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/) | Fixed-Size Sliding Window, HashMap | 🟡 Medium | `O(N)` / `O(K)` | [`2461_Maximum_Sum_of_Distinct_Subarrays_With_Length_K.java`](src/sliding_window/2461_Maximum_Sum_of_Distinct_Subarrays_With_Length_K.java) |
-
----
-
-### 📁 `prefix_sum`
-
-| # | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
-|:---:|:---|:---|:---:|:---:|:---|
-| 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Prefix & Suffix Products (Two Pass) | 🟡 Medium | `O(N)` / `O(1)` | [`238_Product_of_Array_Except_Self.java`](prefix_sum/238_Product_of_Array_Except_Self.java) |
-| 303 | [Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/) | Prefix Sum | 🟢 Easy | `O(1)` / `O(N)` | [`303_Range_Sum_Query_Immutable.java`](prefix_sum/303_Range_Sum_Query_Immutable.java) |
-| 1480 | [Running Sum of 1D Array](https://leetcode.com/problems/running-sum-of-1d-array/) | Prefix Sum | 🟢 Easy | `O(N)` / `O(1)` | [`1480_Running_Sum_of_1D_Array.java`](src/prefix_sum/1480_Running_Sum_of_1D_Array.java) |
-
----
-
-### 📁 `math`
-
-| # | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
-|:---:|:---|:---|:---:|:---:|:---|
-| 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | Arrays, Math | 🟢 Easy | `O(N)` / `O(1)` | [`268_Missing_Number.java`](math/268_Missing_Number.java) |
-
----
-
-### 📁 `binary_search`
-
-| # | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
-|:---:|:---|:---|:---:|:---:|:---|
-| 704 | [Binary Search](https://leetcode.com/problems/binary-search/) | Binary Search | 🟢 Easy | `O(log N)` / `O(1)` | [`704_Binary_Search.java`](binary_search/704_Binary_Search.java) |
-| 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) | Binary Search (Upper Bound) | 🟢 Easy | `O(log N)` / `O(1)` | [`744_Find_Smallest_Letter_Greater_Than_Target.java`](binary_search/744_Find_Smallest_Letter_Greater_Than_Target.java) |
-
----
-
-### 📁 `linked_list`
-
-|  #  | Problem | Pattern / Concept Used | Difficulty | Complexity (T / S) | File |
-| :-: | :---| :--- | :---: | :---: | :--- |
-|  19 | [Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Fast & Slow Pointers, Dummy Node | 🟡 Medium | `O(N)` / `O(1)` | [`19_Remove_Nth_Node_From_End_of_List.java`](src/linked_list/19_Remove_Nth_Node_From_End_of_List.java) |
-|  21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | In-Place Merge | 🟢 Easy | `O(N+M)` / `O(1)` | [`21_Merge_Two_Sorted_Lists.java`](src/linked_list/21_Merge_Two_Sorted_Lists.java) |
-|  83 | [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | Two Pointers | 🟢 Easy | `O(N)` / `O(1)` | [`83_Remove_Duplicates_from_Sorted_List.java`](src/linked_list/83_Remove_Duplicates_from_Sorted_List.java) |
-| 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Floyd's Cycle Detection | 🟢 Easy | `O(N)` / `O(1)` | [`141_Linked_List_Cycle.java`](linked_list/141_Linked_List_Cycle.java) |
-| 203 | [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | Dummy Node & Two Pointers | 🟢 Easy | `O(N)` / `O(1)` | [`203_Remove_Linked_List_Elements.java`](src/linked_list/203_Remove_Linked_List_Elements.java) |
-| 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Iterative Pointer Reversal | 🟢 Easy | `O(N)` / `O(1)` | [`206_Reverse_Linked_List.java`](src/linked_list/206_Reverse_Linked_List.java) |
-| 234 | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Slow/Fast Pointers, Reverse Half | 🟢 Easy | `O(N)` / `O(1)` | [`234_Palindrome_Linked_List.java`](linked_list/234_Palindrome_Linked_List.java) |
-| 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Slow/Fast Pointers | 🟢 Easy | `O(N)` / `O(1)` | [`876_Middle_of_the_Linked_List.java`](src/linked_list/876_Middle_of_the_Linked_List.java) |
-
----
-
-### 📁 `trees`
-
-|  #  | Problem | Pattern / Concept Used  | Difficulty | Complexity (T / S) | File |
-| :-: | :---| :--- | :---: | :---: | :--- |
-| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | Tree DFS (Two Pointers) | 🟢 Easy | `O(N)` / `O(H)` | [`100_Same_Tree.java`](trees/100_Same_Tree.java) |
-| 104 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Tree DFS (Recursion) | 🟢 Easy | `O(N)` / `O(H)` | [`104_Maximum_Depth_of_Binary_Tree.java`](src/trees/104_Maximum_Depth_of_Binary_Tree.java) |
-| 111 | [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | Tree DFS (Recursion) | 🟢 Easy | `O(N)` / `O(H)` | [`111_Minimum_Depth_of_Binary_Tree.java`](src/trees/111_Minimum_Depth_of_Binary_Tree.java) |
-| 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Tree DFS (Recursion) | 🟢 Easy | `O(N)` / `O(H)` | [`226_Invert_Binary_Tree.java`](trees/226_Invert_Binary_Tree.java) |
-
----
-
-### 📁 `stacks`
-
-|  #  | Problem | Pattern / Concept Used  | Difficulty | Complexity (T / S) | File |
-| :-: | :---| :--- | :---: | :---: | :--- |
-| 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Monotonic Stack, HashMap | 🟢 Easy | `O(N + M)` / `O(N)` | [`496_Next_Greater_Element_I.java`](stacks_Next_Greater_Element_I.java) |
-| 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Monotonic Stack | 🟡 Medium | `O(N)` / `O(N)` | [`739_Daily_Temperatures.java`](stacks_Daily_Temperatures.java) |
-| 901 | [Online Stock Span](https://leetcode.com/problems/online-stock-span/) | Monotonic Stack (int[]) | 🟡 Medium | `O(1)` (Amortized) / `O(N)` | [`901_Online_Stock_Span.java`](stacks_Online_Stock_Span.java) |
-
----
-
-## 🧠 Core Patterns Being Mastered
-
-This repository focuses on mastering the most frequently used algorithmic patterns in coding interviews:
-
-- **Hash Maps & Hash Sets** – Reduce brute-force solutions from **O(n²)** to **O(n)** using efficient lookups.
-- **Two Pointers** – Solve array and string problems in-place while maintaining **O(1)** extra space.
-- **Sliding Window** – Optimize subarray and substring problems by maintaining a moving window in **O(n)** time.
-- **Prefix Sums / Prefix Products** – Precompute cumulative values to eliminate redundant calculations.
-- **Binary Search** – Search efficiently on sorted data in **O(log n)** time.
-- **Linked Lists** – Manipulate node pointers safely in-place using techniques like Dummy Nodes and the Slow/Fast Pointer approach.
-- **Trees** – Traverse and compute properties of binary trees recursively (DFS), breaking each problem into smaller subtree problems.
-- **Stacks** – Track elements in a Last-In-First-Out (LIFO) order, specifically using Monotonic Stacks to efficiently find next/previous greater or smaller elements.
-- **Mathematical Techniques** – Apply arithmetic properties and formulas to reduce time or space complexity.
+| Problem # | Last Solved | Next Review | Status | Stage | Notes                                       |
+|:---------:|:-----------:|:-----------:|:------:|:-----:|:--------------------------------------------|
+|     1     | 17-08-2026  | 16-09-2026  |   🟢   |  📗   |                                             |
+|     3     | 13-10-2026  | 20-10-2026  |   🟢   |  🔁   | Dynamic Sliding Window, (r-l+1) != map.size() |
+|    14     | 07-09-2026  | 14-09-2026  |   🟢   |  🔁   | Vertical scanning                           |
+|    16     | 06-10-2026  | 13-10-2026  |   🟢   |  🔁   | Sort first, closest = arr[0]+arr[1]+arr[2]  |
+|    19     | 06-10-2026  | 13-10-2026  |   🟢   |  🔁   | Use Two-Pass; try Single-Pass gap next      |
+|    21     | 07-09-2026  | 14-09-2026  |   🟢   |  🔁   | Use Dummy Node                              |
+|    26     | 21-09-2026  | 28-09-2026  |   🟢   |  🔁   | Reader/Writer Two Pointers                  |
+|    27     | 13-08-2026  | 20-08-2026  |   🟢   |  🔁   |                                             |
+|    48     | 20-07-2026  | 23-07-2026  |   🔴   |  🆕   |                                             |
+|    49     | 15-10-2026  | 22-10-2026  |   🟢   |  🔁   | HashMap with char frequency string key      |
+|    53     | 12-10-2026  | 19-10-2026  |   🟢   |  🔁   | Kadane's Algorithm, reset sum < 0           |
+|    73     | 19-07-2026  | 22-07-2026  |   🔴   |  🆕   |                                             |
+|    75     | 15-07-2026  | 18-07-2026  |   🔴   |  🆕   |                                             |
+|    83     | 19-08-2026  | 26-08-2026  |   🟢   |  🔁   |                                             |
+|    88     | 05-10-2026  | 12-10-2026  |   🟢   |  🔁   | Backwards Three Pointers                    |
+|    100    | 12-07-2026  | 15-07-2026  |   🔴   |  🆕   |                                             |
+|    104    | 09-07-2026  | 12-07-2026  |   🔴   |  🆕   |                                             |
+|    111    | 13-08-2026  | 20-08-2026  |   🟢   |  🔁   | think about edge cases                      |
+|    125    | 07-10-2026  | 14-10-2026  |   🟢   |  🔁   | Regex clean, check bounds to mid            |
+|    136    | 30-06-2026  | 03-07-2026  |   🔴   |  🆕   |                                             |
+|    141    | 05-07-2026  | 08-07-2026  |   🔴   |  🆕   |                                             |
+|    152    | 12-10-2026  | 19-10-2026  |   🟢   |  🔁   | Prefix & suffix sweep, reset on zero        |
+|    167    | 12-09-2026  | 12-10-2026  |   🟢   |  📗   | Check by Dry Run                            |
+|    169    | 27-06-2026  | 30-06-2026  |   🔴   |  🆕   |                                             |
+|    189    | 19-08-2026  | 26-08-2026  |   🟢   |  🔁   | k > length                                  |
+|    203    | 07-07-2026  | 10-07-2026  |   🔴   |  🆕   |                                             |
+|    206    | 05-07-2026  | 08-07-2026  |   🔴   |  🆕   |                                             |
+|    209    | 28-07-2026  | 31-07-2026  |   🔴   |  🆕   |                                             |
+|    217    | 21-10-2026  | 28-10-2026  |   🟢   |  🔁   | Add to HashSet, check for false return      |
+|    226    | 17-07-2026  | 20-07-2026  |   🔴   |  🆕   |                                             |
+|    234    | 08-07-2026  | 11-07-2026  |   🔴   |  🆕   |                                             |
+|    238    | 07-10-2026  | 14-10-2026  |   🟢   |  🔁   | Two-pass prefix/suffix products, O(1) space |
+|    268    | 04-07-2026  | 07-07-2026  |   🔴   |  🆕   |                                             |
+|    283    | 01-07-2026  | 04-07-2026  |   🔴   |  🆕   |                                             |
+|    303    | 10-07-2026  | 13-07-2026  |   🔴   |  🆕   |                                             |
+|    344    | 25-06-2026  | 28-06-2026  |   🔴   |  🆕   |                                             |
+|    392    | 04-07-2026  | 07-07-2026  |   🔴   |  🆕   |                                             |
+|    442    | 22-09-2026  | 25-09-2026  |   🟢   |  🆕   | Use Math.abs() to track visited indexes     |
+|    443    | 07-10-2026  | 14-10-2026  |   🟢   |  🔁   | **MUST DO QUESTION** (Reader/Writer)        |
+|    485    | 03-10-2026  | 10-10-2026  |   🟢   |  🔁   | Reset window on zero                        |
+|    496    | 13-08-2026  | 20-08-2026  |   🟢   |  🆕   | Need improvement                            |
+|    643    | 21-09-2026  | 28-09-2026  |   🟢   |  🔁   |                                             |
+|    704    | 04-07-2026  | 07-07-2026  |   🔴   |  🆕   |                                             |
+|    739    | 17-08-2026  | 24-08-2026  |   🟢   |  🆕   | Need improvement                            |
+|    744    | 22-07-2026  | 25-07-2026  |   🔴   |  🆕   |                                             |
+|    844    | 03-07-2026  | 06-07-2026  |   🔴   |  🆕   |                                             |
+|    876    | 05-07-2026  | 08-07-2026  |   🔴   |  🆕   |                                             |
+|    901    | 17-08-2026  | 24-08-2026  |   🟢   |  🆕   | use Arrays                                  |
+|    904    | 03-10-2026  | 10-10-2026  |   🟢   |  🔁   | Act first, apologize later (HashMap)        |
+|    977    | 02-07-2026  | 05-07-2026  |   🔴   |  🆕   |                                             |
+|   1343    | 27-07-2026  | 30-07-2026  |   🔴   |  🆕   |                                             |
+|   1480    | 29-06-2026  | 02-07-2026  |   🔴   |  🆕   |                                             |
+|   1876    | 03-10-2026  | 10-10-2026  |   🟢   |  🔁   | Fixed-size window (size 3)                  |
+|   2022    | 16-07-2026  | 19-07-2026  |   🔴   |  🆕   |                                             |
+|   2379    | 27-07-2026  | 30-07-2026  |   🔴   |  🆕   |                                             |
+|   2461    | 27-07-2026  | 30-07-2026  |   🔴   |  🆕   | Solid HashMap zero-count recall last time   |
