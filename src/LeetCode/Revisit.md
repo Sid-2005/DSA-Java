@@ -1,6 +1,6 @@
 # 🔁 Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-57-blue) ![Overdue](https://img.shields.io/badge/Overdue-25-red) ![Upcoming](https://img.shields.io/badge/Upcoming-32-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-57-blue) ![Overdue](https://img.shields.io/badge/Overdue-24-red) ![Upcoming](https://img.shields.io/badge/Upcoming-33-brightgreen)
 
 Pick 2-3 🔴 problems from the top. Re-solve from a blank file — **no peeking at old code, pattern,
 or README.** Sorted by LeetCode problem number only, so topic order is effectively randomized —
@@ -38,7 +38,7 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 |    169    | 27-06-2026  | 30-06-2026  |   🔴   |  🆕   |                                             |
 |    189    | 19-08-2026  | 26-08-2026  |   🟢   |  🔁   | k > length                                  |
 |    203    | 07-07-2026  | 10-07-2026  |   🔴   |  🆕   |                                             |
-|    206    | 05-07-2026  | 08-07-2026  |   🔴   |  🆕   |                                             |
+|    206    | 23-10-2026  | 30-10-2026  |   🟢   |  🔁   | Iterative three pointers (prev, curr, nxt)  |
 |    209    | 28-07-2026  | 31-07-2026  |   🔴   |  🆕   |                                             |
 |    217    | 21-10-2026  | 28-10-2026  |   🟢   |  🔁   | Add to HashSet, check for false return      |
 |    226    | 17-07-2026  | 20-07-2026  |   🔴   |  🆕   |                                             |
