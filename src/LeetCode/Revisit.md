@@ -1,6 +1,6 @@
 # 🔁 Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-57-blue) ![Overdue](https://img.shields.io/badge/Overdue-23-red) ![Upcoming](https://img.shields.io/badge/Upcoming-34-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-57-blue) ![Overdue](https://img.shields.io/badge/Overdue-21-red) ![Upcoming](https://img.shields.io/badge/Upcoming-36-brightgreen)
 
 Pick 2-3 🔴 problems from the top. Re-solve from a blank file — **no peeking at old code, pattern,
 or README.** Sorted by LeetCode problem number only, so topic order is effectively randomized —
@@ -44,10 +44,10 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 |    226    | 17-07-2026  | 20-07-2026  |   🔴   |  🆕   |                                             |
 |    234    | 08-07-2026  | 11-07-2026  |   🔴   |  🆕   |                                             |
 |    238    | 07-10-2026  | 14-10-2026  |   🟢   |  🔁   | Two-pass prefix/suffix products, O(1) space |
-|    268    | 04-07-2026  | 07-07-2026  |   🔴   |  🆕   |                                             |
+|    268    | 12-11-2026  | 19-11-2026  |   🟢   |  🔁   | Math (Gauss formula sum)                    |
 |    283    | 02-11-2026  | 09-11-2026  |   🟢   |  🔁   | Reader/Writer swap                          |
 |    303    | 10-07-2026  | 13-07-2026  |   🔴   |  🆕   |                                             |
-|    344    | 25-06-2026  | 28-06-2026  |   🔴   |  🆕   |                                             |
+|    344    | 12-11-2026  | 19-11-2026  |   🟢   |  🔁   | Two Pointers (swap left and right)          |
 |    392    | 04-07-2026  | 07-07-2026  |   🔴   |  🆕   |                                             |
 |    442    | 22-09-2026  | 25-09-2026  |   🟢   |  🆕   | Use Math.abs() to track visited indexes     |
 |    443    | 07-10-2026  | 14-10-2026  |   🟢   |  🔁   | **MUST DO QUESTION** (Reader/Writer)        |
