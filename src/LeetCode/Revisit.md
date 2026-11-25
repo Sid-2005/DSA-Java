@@ -1,6 +1,6 @@
 # 🔁 Revisit Tracker
 
-![Total](https://img.shields.io/badge/Tracked-57-blue) ![Overdue](https://img.shields.io/badge/Overdue-20-red) ![Upcoming](https://img.shields.io/badge/Upcoming-37-brightgreen)
+![Total](https://img.shields.io/badge/Tracked-57-blue) ![Overdue](https://img.shields.io/badge/Overdue-19-red) ![Upcoming](https://img.shields.io/badge/Upcoming-38-brightgreen)
 
 Pick 2-3 🔴 problems from the top. Re-solve from a blank file — **no peeking at old code, pattern,
 or README.** Sorted by LeetCode problem number only, so topic order is effectively randomized —
@@ -27,7 +27,7 @@ recognizing the pattern cold is part of the exercise. Look the problem up by num
 |    83     | 19-08-2026  | 26-08-2026  |   🟢   |  🔁   |                                             |
 |    88     | 05-10-2026  | 12-10-2026  |   🟢   |  🔁   | Backwards Three Pointers                    |
 |    100    | 12-07-2026  | 15-07-2026  |   🔴   |  🆕   |                                             |
-|    104    | 09-07-2026  | 12-07-2026  |   🔴   |  🆕   |                                             |
+|    104    | 25-11-2026  | 02-12-2026  |   🟢   |  🔁   | Tree DFS recursion, Math.max(l, r) + 1      |
 |    111    | 13-08-2026  | 20-08-2026  |   🟢   |  🔁   | think about edge cases                      |
 |    125    | 07-10-2026  | 14-10-2026  |   🟢   |  🔁   | Regex clean, check bounds to mid            |
 |    136    | 22-10-2026  | 29-10-2026  |   🟢   |  🔁   | Bitwise XOR to find single element          |
